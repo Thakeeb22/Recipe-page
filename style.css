@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+.grid-conatainer {
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  align-content: space-evenly;
+  width: 900px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: white;
+  grid-template-areas:
+    "header header header header header header header header"
+    "prep-box prep-box prep-box prep-box prep-box prep-box prep-box prep-box"
+    "attribution attribution attribution attribution attribution attribution attribution attribution";
+}
+.prep-box {
+  width: 800px;
+  justify-items: center;
+  margin-bottom: 20px;
+  display: grid;
+  grid-area: prep-box;
+  grid-template-areas:
+    "intro intro intro intro intro intro intro intro"
+    "prep prep prep prep prep prep prep prep"
+    "ingred ingred ingred ingred ingred ingred ingred ingred"
+    "intruct intruct intruct intruct intruct intruct intruct intruct"
+    "nutri nutri nutri nutri nutri nutri nutri nutri";
+}
+.header {
+  grid-area: header;
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  border-radius: 20px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+header img {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+}
+.intro {
+  grid-area: intro;
+  width: 800px;
+}
+.intro-section h1 {
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.intro-section p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.prep {
+  border-radius: 20px;
+  grid-area: prep;
+  width: 800px;
+  background-color: hsl(331, 47%, 90%);
+}
+.prep h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: hsl(332, 51%, 32%);
+  padding: 10px;
+}
+.pre-section h2 {
+  padding: 0 30px;
+}
+.pre-section ul li {
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.prep ul li::marker{
+  color:  hsl(332, 51%, 32%);
+}
+.ingred {
+  grid-area: ingred;
+  width: 800px;
+}
+.ingred h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+}
+.ingred ul li {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.ingred ul li::marker{
+  color: hsl(14, 45%, 36%);
+}
+.intruct {
+  grid-area: intruct;
+  width: 800px;
+}
+.intruct h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+}
+.intruct ol li {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.intruct ol li::marker{
+  color:hsl(14, 45%, 36%);
+}
+.nutri {
+  grid-area: nutri;
+  width: 800px;
+}
+.nutri h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+}
+.nutri p {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+table {
+  padding: 20px;
+  width: 800px;
+  align-content: space-evenly;
+}
+table td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.pro {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.val {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.attribution {
+  grid-area: attribution;
+  margin-bottom: 20px;
+  width: 500px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+  .grid-conatainer {
+    margin:auto;
+    grid-template-areas:
+      "header header header header header header header header"
+      "prep-box prep-box prep-box prep-box prep-box prep-box prep-box prep-box"
+      "attribution attribution attribution attribution attribution attribution attribution attribution";
+  }
+  .prep-box {
+    width: 800px;
+    justify-items: center;
+    margin-bottom: 20px;
+    display: grid;
+    grid-area: prep-box;
+    grid-template-areas:
+      "intro intro intro intro intro intro intro intro"
+      "prep prep prep prep prep prep prep prep"
+      "ingred ingred ingred ingred ingred ingred ingred ingred"
+      "intruct intruct intruct intruct intruct intruct intruct intruct"
+      "nutri nutri nutri nutri nutri nutri nutri nutri";
+  }
+  .header {
+    grid-area: header;
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+  }
+  header img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+  }
+  .intro {
+    grid-area: intro;
+    width: 800px;
+  }
+  .intro-section h1 {
+    font-size: 40px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+  }
+  .intro-section p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .prep {
+    border-radius: 20px;
+    grid-area: prep;
+    width: 800px;
+    background-color: hsl(331, 47%, 90%);
+  }
+  .prep h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: hsl(332, 51%, 32%);
+    padding: 10px;
+  }
+  .pre-section h2 {
+    padding: 0 30px;
+  }
+  .pre-section ul li {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+  .ingred {
+    grid-area: ingred;
+    width: 800px;
+  }
+  .ingred h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+  }
+  .ingred ul li {
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+  .intruct {
+    grid-area: intruct;
+    width: 800px;
+  }
+  .intruct h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+  }
+  .intruct ol li {
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+  .nutri {
+    grid-area: nutri;
+    width: 800px;
+  }
+  .nutri h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+  }
+  .nutri p {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 2;
+  }
+  table {
+    padding: 20px;
+    width: 800px;
+    align-content: space-evenly;
+  }
+  table td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+  .pro {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+  .val {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+  }
+  
+}
