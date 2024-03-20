@@ -89,7 +89,7 @@ header img {
 .ingred {
   grid-area: ingred;
   width: 800px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(182, 182, 182);
 }
 .ingred h2 {
   font-family: "Young Serif", serif;
@@ -109,7 +109,7 @@ header img {
 .intruct {
   grid-area: intruct;
   width: 800px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(182, 182, 182);
 }
 .intruct h2 {
   font-family: "Young Serif", serif;
