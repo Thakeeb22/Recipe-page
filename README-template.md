@@ -15,7 +15,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### Screenshot
@@ -52,7 +51,7 @@ I want to continue learning how to use grid to design a fully responsive site.
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://www.your-site.com)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.guthub.io/Recipe-page/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
 - Twitter - [@MuhammadThakeeb](https://www.twitter.com/MuhammadThakeeb)
 
