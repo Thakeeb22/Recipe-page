@@ -11,11 +11,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,8 +32,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/resposive-recipe-page-using-css-grid-IVstSolE4p)
+- Live Site URL: [Add live site URL here](https://thakeeb22.github.io/Recipe-page/)
 
 ## My process
 
@@ -53,7 +50,7 @@ I want to continue learning how to use grid to design a fully responsive site.
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://www.your-site.com)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.guthub.io/Recipe-page/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
 - Twitter - [@MuhammadThakeeb](https://www.twitter.com/MuhammadThakeeb)
 
